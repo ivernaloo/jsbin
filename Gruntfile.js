@@ -49,11 +49,11 @@ module.exports = function (grunt) {
   var pkg = grunt.file.readJSON('package.json');
 
   var distpaths = {
-    script:    'public/js/prod/<%= pkg.name %>-<%= pkg.version %>.js',
+    script:    'public/js/<%= pkg.name %>.js',
     // map:       'public/js/prod/<%= pkg.name %>.map.json', // don't version this so we overwrite
-    min:       'public/js/prod/<%= pkg.name %>-<%= pkg.version %>.min.js',
-    runner:    'public/js/prod/runner-<%= pkg.version %>.js',
-    runnermin: 'public/js/prod/runner-<%= pkg.version %>.min.js',
+    min:       'public/js/<%= pkg.name %>.min.js',
+    runner:    'public/js/runner.js',
+    runnermin: 'public/js/runner.min.js',
     embed:     'public/js/embed.min.js',
   };
 

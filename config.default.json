@@ -2,7 +2,7 @@
   "env": "development",
   "timezone": "UTC",
   "url": {
-    "host": "localhost:3000",
+    "host": "server",
     "prefix": "/",
     "ssl": false,
     "static": false,
@@ -16,7 +16,7 @@
       "location": "jsbin.sqlite"
     },
     "mysql": {
-      "host": "localhost",
+      "host": "server",
       "user": "root",
       "password": "",
       "database": "jsbin",
@@ -24,7 +24,9 @@
       "collate": "utf8mb4_unicode_ci"
     }
   },
-  "session": {},
+  "session": {
+    "secret": "bfksfysa7e32kdhayu292sz"
+  },
   "analytics": {
     "id": null,
     "render-id": null
