@@ -423,11 +423,7 @@ var libraries = [
   },
   {
     'url': 'https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.16/vue.js',
-    'label': 'Vue.js 1.0.16',
-  },
-  {
-    'url': 'https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.js',
-    'label': 'Vue.js 2.0.3',
+    'label': 'Vue.js',
   },
   {
     'url': 'http://cdn.ractivejs.org/latest/ractive.js',

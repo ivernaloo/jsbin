@@ -2,7 +2,6 @@ logs
 logs/*
 config.*.json
 public/js/jsbin*.js
-.idea
 .nodemonignore
 public/js/prod
 !config.default.json
